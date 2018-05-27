@@ -1,0 +1,40 @@
+*
+{
+    margin: 0; 
+    padding: 0;
+}
+
+header
+{
+    background-image:url(pic1.jpg);
+    height: 115%;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 10px; 
+}
+
+.main-nav li
+{
+    display: inline-block; 
+}
+
+.main-nav li a
+{
+    color: brown;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: : 15px;
+        
+}
+
+.main-nav li.active a
+{
+    border: 1px solid brown;
+}
